@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VCpd/M/nLVtoLE0XCsvoo+9yegNhHYCmsPTfCv6uMXnUbVSaJTaFLpBPXoDco+Rh1dSfUqy1+olgzfFaTrh9ug==",
+  "success": true,
+  "projectFilePath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BangPS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
