@@ -12,6 +12,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using KnowledgeSpace.ViewModels.Data.Entities;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.OpenApi.Models;
+using FluentValidation.AspNetCore;
+using KnowledgeSpace.ViewModels.Systems;
 
 namespace KnowledgeSpace
 {
@@ -50,8 +53,15 @@ namespace KnowledgeSpace
                 options.Password.RequireUppercase = true;
                 options.User.RequireUniqueEmail = true;
             });
-            services.AddControllers();
+            services.AddControllers()
+                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<RoleVmValidator>());
+
             services.AddTransient<DbInitializer>();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Knowledge Space API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -66,10 +76,14 @@ namespace KnowledgeSpace
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Knowledge Space API V1");
             });
         }
     }

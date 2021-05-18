@@ -72,3 +72,17 @@ D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\
 D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
 D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
 D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.exe
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\System.Web.Http.WebHost.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\WebActivatorEx.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.dll
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\bin\Debug\netcoreapp3.1\KnowledgeSpace.ViewModels.pdb
+D:\backend\KnowledgeSpace\KnowledgeSpace\KnowledgeSpace\obj\Debug\netcoreapp3.1\KnowledgeSpace.BackendServer.MvcApplicationPartsAssemblyInfo.cs

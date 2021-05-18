@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VCpd/M/nLVtoLE0XCsvoo+9yegNhHYCmsPTfCv6uMXnUbVSaJTaFLpBPXoDco+Rh1dSfUqy1+olgzfFaTrh9ug==",
+  "dgSpecHash": "tRSumoZ9YDkhhwMN6fov+sf5Aa7uxSjxhkRVC7ecrVjhveqVkWOCGUFKNiUP83/38YMWtMIPsv09LYvaR6rmjg==",
   "success": true,
   "projectFilePath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\BangPS\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
     "C:\\Users\\BangPS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
