@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj": {}
+    "D:\\backend\\knowledge-base\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj": {}
   },
   "projects": {
-    "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj": {
+    "D:\\backend\\knowledge-base\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
+        "projectUniqueName": "D:\\backend\\knowledge-base\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
         "projectName": "KnowledgeSpace.ViewModels",
-        "projectPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\BangPS\\.nuget\\packages\\",
-        "outputPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\obj\\",
+        "projectPath": "D:\\backend\\knowledge-base\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\HL2020\\.nuget\\packages\\",
+        "outputPath": "D:\\backend\\knowledge-base\\KnowledgeSpace.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BangPS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HL2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,12 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj": {
+    "D:\\backend\\knowledge-base\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj",
+        "projectUniqueName": "D:\\backend\\knowledge-base\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj",
         "projectName": "KnowledgeSpace.BackendServer",
-        "projectPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj",
-        "packagesPath": "C:\\Users\\BangPS\\.nuget\\packages\\",
-        "outputPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace\\obj\\",
+        "projectPath": "D:\\backend\\knowledge-base\\KnowledgeSpace\\KnowledgeSpace.BackendServer.csproj",
+        "packagesPath": "C:\\Users\\HL2020\\.nuget\\packages\\",
+        "outputPath": "D:\\backend\\knowledge-base\\KnowledgeSpace\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BangPS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HL2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,8 +91,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj": {
-                "projectPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj"
+              "D:\\backend\\knowledge-base\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj": {
+                "projectPath": "D:\\backend\\knowledge-base\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj"
               }
             }
           }
@@ -174,12 +168,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -188,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

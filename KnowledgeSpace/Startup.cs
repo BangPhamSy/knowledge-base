@@ -15,6 +15,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.OpenApi.Models;
 using FluentValidation.AspNetCore;
 using KnowledgeSpace.ViewModels.Systems;
+using System.Reflection;
+using System.IO;
 
 namespace KnowledgeSpace
 {
@@ -24,6 +26,7 @@ namespace KnowledgeSpace
         {
             Configuration = configuration;
         }
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -61,6 +64,10 @@ namespace KnowledgeSpace
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Knowledge Space API", Version = "v1" });
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
         }
 

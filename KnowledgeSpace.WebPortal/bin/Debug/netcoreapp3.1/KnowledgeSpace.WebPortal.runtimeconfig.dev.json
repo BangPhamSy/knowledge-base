@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\BangPS\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\BangPS\\.nuget\\packages"
+      "C:\\Users\\HL2020\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\HL2020\\.nuget\\packages"
     ]
   }
 }

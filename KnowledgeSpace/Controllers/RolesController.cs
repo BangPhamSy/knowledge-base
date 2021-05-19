@@ -15,12 +15,18 @@ namespace KnowledgeSpace.BackendServer.Controllers
     public class RolesController : ControllerBase
     {
         private readonly RoleManager<IdentityRole> _roleManager;
+
         public RolesController(RoleManager<IdentityRole> roleManager)
         {
             _roleManager = roleManager;
         }
 
         //URL: POST: http://localhost:5001/api/roles
+        /// <summary>
+        /// Tạo mới Role
+        /// </summary>
+        /// <param name="roleVm"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> PostRole(RoleVm roleVm)
         {
@@ -58,10 +64,10 @@ namespace KnowledgeSpace.BackendServer.Controllers
 
         //URL: GET: http://localhost:5001/api/roles/?filter={filter}&pageIndex=1&pageSize=10
         [HttpGet("filter")]
-        public async Task<IActionResult> GetRoles (string filter, int pageIndex, int pageSize)
+        public async Task<IActionResult> GetRoles(string filter, int pageIndex, int pageSize)
         {
             var query = _roleManager.Roles;
-            if(!string.IsNullOrEmpty(filter))
+            if (!string.IsNullOrEmpty(filter))
             {
                 query = query.Where(x => x.Id.Contains(filter) || x.Name.Contains(filter));
             }
@@ -110,7 +116,7 @@ namespace KnowledgeSpace.BackendServer.Controllers
             role.NormalizedName = roleVm.Name.ToUpper();
 
             var result = await _roleManager.UpdateAsync(role);
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
                 return NoContent();
             }

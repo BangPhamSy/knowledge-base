@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj": {}
+    "D:\\backend\\knowledge-base\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj": {}
   },
   "projects": {
-    "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj": {
+    "D:\\backend\\knowledge-base\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj",
+        "projectUniqueName": "D:\\backend\\knowledge-base\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj",
         "projectName": "KnowledgeSpace.WebPortal",
-        "projectPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj",
-        "packagesPath": "C:\\Users\\BangPS\\.nuget\\packages\\",
-        "outputPath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.WebPortal\\obj\\",
+        "projectPath": "D:\\backend\\knowledge-base\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj",
+        "packagesPath": "C:\\Users\\HL2020\\.nuget\\packages\\",
+        "outputPath": "D:\\backend\\knowledge-base\\KnowledgeSpace.WebPortal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BangPS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HL2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,12 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

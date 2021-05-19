@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M9pDFkkQ6FnBAulPvLTBfhNlSd31OsJ/sRiDsr8EBcPhkGSzgLgmmzTDY7XMQkLgq19lcoWcJM9ccKgzTLHdmw==",
+  "dgSpecHash": "0UYz/AvAnsaHEHwdS2XNMMzENVvX7AHtS7TPFKknu8mSLAElbcrtnEKLBbIAUU8igOavAP3g0Ff5uIhU5MXgzA==",
   "success": true,
-  "projectFilePath": "D:\\backend\\KnowledgeSpace\\KnowledgeSpace\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\BangPS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\backend\\knowledge-base\\KnowledgeSpace.WebPortal\\KnowledgeSpace.WebPortal.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
